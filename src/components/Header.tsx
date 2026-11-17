@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ cartCount, onOpenCart }) => {
             Heritage Footwear from Bapu Bazar, Jaipur · Est. 2002
           </span>
           <span className="mx-auto sm:mx-0 font-medium text-[#F7E7CE]">
-            Wedding Orders &amp; PAN-India WhatsApp Delivery
+            Wedding Orders &amp; PAN-India Delivery
           </span>
           <div className="hidden md:flex items-center gap-4 text-stone-300 font-mono text-[11px]">
             <a
