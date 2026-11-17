@@ -1,0 +1,6 @@
+{
+  "name": "Relax Nagra & Chappal Store",
+  "description": "Handcrafted traditional Rajasthani Nagras, Royal Sherwani Juttis, and Pure Leather Kolhapuri Chappals from Bapu Bazar, Jaipur. Instant WhatsApp inquiries and order booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
