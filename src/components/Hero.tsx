@@ -1,6 +1,7 @@
 import React from 'react';
 import { MessageCircle, ArrowRight, ShieldCheck, Sparkles, Truck, Star } from 'lucide-react';
 import { STORE_PHONE_NUMBER } from '../utils/whatsapp';
+import heroRajasthaniJuttisImg from '../assets/images/hero_rajasthani_juttis_1792143201498.jpg';
 
 export const Hero: React.FC = () => {
   return (
@@ -74,7 +75,7 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl ring-1 ring-stone-900/10 bg-stone-100 aspect-[4/3] lg:aspect-[5/4]">
               <img
-                src="/src/assets/images/hero_rajasthani_juttis_1792143201498.jpg"
+                src={heroRajasthaniJuttisImg}
                 alt="Handcrafted Rajasthani Nagra and Embroidered Groom Juttis in Jaipur"
                 className="w-full h-full object-cover transform hover:scale-102 transition-transform duration-700 ease-out"
                 loading="eager"

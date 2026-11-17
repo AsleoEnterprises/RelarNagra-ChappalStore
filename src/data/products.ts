@@ -1,3 +1,11 @@
+import royalSherwaniJuttiImg from '../assets/images/product_royal_sherwani_jutti_1792143202917.jpg';
+import leatherKolhapuriImg from '../assets/images/product_leather_kolhapuri_1792143203643.jpg';
+import ladiesEmbroideredJuttiImg from '../assets/images/product_ladies_embroidered_jutti_1792143203351.jpg';
+import classicNagraImg from '../assets/images/product_classic_nagra_1792143224244.jpg';
+import velvetEmeraldJuttiImg from '../assets/images/product_velvet_emerald_jutti_1792143223685.jpg';
+import comfortChappalImg from '../assets/images/product_comfort_chappal_1792143223732.jpg';
+import heroRajasthaniJuttisImg from '../assets/images/hero_rajasthani_juttis_1792143201498.jpg';
+
 export interface Product {
   id: string;
   title: string;
@@ -28,7 +36,7 @@ export const PRODUCTS: Product[] = [
     gender: 'Men',
     price: 2450,
     mrp: 3200,
-    image: '/src/assets/images/product_royal_sherwani_jutti_1792143202917.jpg',
+    image: royalSherwaniJuttiImg,
     description: 'Regal maroon and gold wedding jutti adorned with authentic Jaipur tilla and zardozi threadwork, tailored with a curved royal khussa toe. Double-padded memory foam insole guarantees all-day comfort during baraat and wedding rituals.',
     materials: 'Pure Raw Velvet Upper, Golden Tilla Bullion Embroidery, Soft Kid Leather Lining',
     soleType: 'Hand-tooled vegetable tanned buff leather sole with bite-free cushioned footbed',
@@ -48,7 +56,7 @@ export const PRODUCTS: Product[] = [
     gender: 'Men',
     price: 1350,
     mrp: 1800,
-    image: '/src/assets/images/product_leather_kolhapuri_1792143203643.jpg',
+    image: leatherKolhapuriImg,
     description: 'Traditional Kolhapuri chappal hand-crafted from 100% vegetable-tanned genuine leather. Features intricate hand-braided straps, burnished edges, and brass stud ornamentation that ages gracefully with every wear.',
     materials: 'Vegetable Tanned Grain Leather, Hand-woven leather thongs, Brass Accents',
     soleType: 'Authentic pressed leather sole with anti-skid rubber heel insert',
@@ -68,7 +76,7 @@ export const PRODUCTS: Product[] = [
     gender: 'Women',
     price: 1650,
     mrp: 2200,
-    image: '/src/assets/images/product_ladies_embroidered_jutti_1792143203351.jpg',
+    image: ladiesEmbroideredJuttiImg,
     description: 'Exquisite blush pink raw silk Punjabi jutti encrusted with delicate pearls, dabka embellishments, and authentic Rajasthani gota patti floral motifs. Soft leather back lining prevents shoe bites.',
     materials: 'Pure Silk Base, Seed Pearls, Cutdana & Zari Hand Embroidery, Suede Collar',
     soleType: 'Ultra-flexible genuine leather sole with double foam insole',
@@ -88,7 +96,7 @@ export const PRODUCTS: Product[] = [
     gender: 'Unisex',
     price: 1150,
     mrp: 1550,
-    image: '/src/assets/images/product_classic_nagra_1792143224244.jpg',
+    image: classicNagraImg,
     description: 'The signature classic of Jaipur’s Bapu Bazar since 2002. Hand-punched camel leather with traditional curved toe and hand-twisted cord stitching. Gets softer and contours to your foot shape after just one day.',
     materials: 'Hand-burnished Camel Leather, Heavy Waxed Linen Stitching',
     soleType: 'Hand-sewn dual-layer leather sole with arch contouring',
@@ -108,7 +116,7 @@ export const PRODUCTS: Product[] = [
     gender: 'Men',
     price: 2650,
     mrp: 3500,
-    image: '/src/assets/images/product_velvet_emerald_jutti_1792143223685.jpg',
+    image: velvetEmeraldJuttiImg,
     description: 'Opulent deep emerald green micro-velvet jutti tailored for groom sherwanis and festive galas. Embellished with heavy Rajasthani floral vine embroidery in antique matte gold wires.',
     materials: 'Imported Micro Velvet, Matte Antique Zari, Velvet-bound seams',
     soleType: 'Rigid dress leather base with internal silicone heel cushion',
@@ -128,7 +136,7 @@ export const PRODUCTS: Product[] = [
     gender: 'Men',
     price: 950,
     mrp: 1300,
-    image: '/src/assets/images/product_comfort_chappal_1792143223732.jpg',
+    image: comfortChappalImg,
     description: 'Engineered for everyday durability and walking comfort. Supple oiled leather dual-straps paired with high-density ergonomic cushioned footbeds that reduce heel stress throughout the day.',
     materials: 'Milled Full-Grain Cow Leather, Padded Microfiber Upper Lining',
     soleType: 'Ergonomic shock-absorbing PU sole with deep traction tread',
@@ -148,7 +156,7 @@ export const PRODUCTS: Product[] = [
     gender: 'Unisex',
     price: 1450,
     mrp: 1950,
-    image: '/src/assets/images/hero_rajasthani_juttis_1792143201498.jpg',
+    image: heroRajasthaniJuttisImg,
     description: 'Versatile unisex Punjabi jutti crafted with traditional flat back and rounded toe. Intricate gold thread motifs make it perfect for kurtas, pathanis, and ethnic festivities.',
     materials: 'Embroidered Raw Silk Upper, Breathable Goat Leather Lining',
     soleType: 'Flexible vegetable tanned leather with foam padding',

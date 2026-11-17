@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Compass, HeartHandshake, Layers } from 'lucide-react';
+import storeBapuBazarCraftImg from '../assets/images/store_bapu_bazar_craft_1792143203753.jpg';
 
 export const CraftsmanshipStory: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ export const CraftsmanshipStory: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden shadow-xl ring-1 ring-stone-900/10 bg-stone-100 aspect-[4/3] lg:aspect-[4/5]">
               <img
-                src="/src/assets/images/store_bapu_bazar_craft_1792143203753.jpg"
+                src={storeBapuBazarCraftImg}
                 alt="Master footwear artisan hand-stitching traditional Rajasthani Nagra in Bapu Bazar Jaipur"
                 className="w-full h-full object-cover"
                 loading="lazy"
