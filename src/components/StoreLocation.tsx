@@ -173,7 +173,7 @@ export const StoreLocation: React.FC = () => {
             <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full bg-stone-100">
               <iframe
                 title="Relax Nagra and Chappal Store Location in Bapu Bazar Jaipur"
-                src="https://maps.google.com/maps?q=Bapu+Bazar+Jaipur+Rajasthan+302003+Relax+Nagra+and+Chappal+Store&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps?q=Relax+Nagra+and+Chappal+Store,+Bapu+Bazar,+Jaipur,+Rajasthan+302003&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 className="w-full h-full border-0"
                 loading="lazy"
                 allowFullScreen
