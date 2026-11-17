@@ -1,4 +1,5 @@
 {
+  "homepage": "https://AsleoEnterprises.github.io/RelarNagra-ChappalStore",
   "name": "react-example",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -t --nojekyll",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit"
   },
